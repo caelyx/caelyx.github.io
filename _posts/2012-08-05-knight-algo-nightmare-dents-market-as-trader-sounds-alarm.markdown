@@ -4,7 +4,7 @@ title: "Knight Algo Nightmare Dents Market As Trader Sounds Alarm"
 date: 2012-08-05 17:16
 comments: true
 categories: [technology, finance]
-external-url: http://www.bloomberg.com/news/2012-08-02/knight-algo-nightmare-dents-market-as-trader-sounds-alarm.html
+external-link: http://www.bloomberg.com/news/2012-08-02/knight-algo-nightmare-dents-market-as-trader-sounds-alarm.html
 ---
 
 Bloomberg:
