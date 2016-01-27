@@ -4,7 +4,7 @@ title: "Mat Honan: How I Resurrected My Digital Life After an Epic Hacking"
 date: 2012-08-18 22:59
 comments: true
 categories: 
-external-url: http://www.wired.com/gadgetlab/2012/08/mat-honan-data-recovery/all/
+external-link: http://www.wired.com/gadgetlab/2012/08/mat-honan-data-recovery/all/
 ---
 
 Mat Honan has written eloquently about the he has lessons learned from his recent ordeal. Most chilling is his commentary on the processes around account management: 
