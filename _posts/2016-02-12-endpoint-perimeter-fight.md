@@ -31,7 +31,7 @@ If someone wants to assert that their endpoint control is good replacement for t
 
 Asserting, though, that the endpoints don't need the perimeter, or that the perimeter can protect any endpoint, is hubris. 
 
-*Thanks to Ross and Jordan for their thoughts.*
+(*Thanks to Ross and Jordan for their thoughts.*)
 
 [^1]: He really kicks off at 9:00 with a joke about enjoying having to compete with "70-year old grey hairs at IBM".
 [^2]: Unnamed because I wasn't there, and this is therefore hearsay.
