@@ -12,7 +12,7 @@ email: simon@luckandskill.io
 description: > # this means to ignore newlines until "baseurl:"
   Success comes from some combination of luck and skill; we are right to be 
   proud of our skill, but we should also remember to be humble about our luck. 
-  Simon's written thoughts.
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.luckandskill.io" # the base hostname & protocol for your site
 twitter_username: caelyxsec
