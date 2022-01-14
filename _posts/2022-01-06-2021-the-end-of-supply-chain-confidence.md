@@ -74,3 +74,5 @@ Third -- start moving toward being able to patch everything you have within 24 h
 More generally, use your purchasing power to help improve things for everyone. *Reach out to your vendors and ask them what they're doing.* When will they provide a software bill of materials for the products you use, so that you know what's in them? What are they doing to strengthen the security around their code repositories, and their build and distribution mechanisms? Have they got two-factor authentication in place for all their employee access to those systems? What quality tests are they putting in place to ensure their software isn't subverted? And how are they contributing back to improving the security of the open source components they rely on? 
 
 2021 was the year the software supply chain security assumption was invalidated; the urgent work of 2022 is building resilience against it.
+
+*My thanks to Jordan and James for reading and providing feedback on the draft of this post.*
