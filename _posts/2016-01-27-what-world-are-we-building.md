@@ -7,9 +7,7 @@ tags: [analytics, bias, machinelearning]
 external-link: https://points.datasociety.net/what-world-are-we-building-9978495dd9ad#.kkf3y4ieb
 ---
 
-danah boyd asks ["What World are we Building" in an excellent post][db1]. 
-
-It's a thoughtful piece, which reflects on the recent history of social media, and extrapolates some of the underlying trends into our next generation of technologies. In particular, there's something of a call-to-arms around data analytics, and the need to be thoughtful about the subjectivity of the data and results.
+danah boyd asks "What World are we Building" in [this excellent post][db1]. It's a thoughtful piece, which reflects on the recent history of social media, and extrapolates some of the underlying trends into our next generation of technologies. In particular, there's something of a call-to-arms around data analytics, and the need to be thoughtful about the subjectivity of the data and results.
 
 <blockquote> 
 One of the perennial problems with the statistical and machine learning techniques that underpin “big data” analytics is that they rely on data entered as input. When the data you input is biased, what you get out is just as biased. These systems learn the biases in our society, and they spit them back out at us.

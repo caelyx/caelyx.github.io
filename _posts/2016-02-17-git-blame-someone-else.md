@@ -5,7 +5,10 @@ date: "2016-02-17 08:45:55 +1100"
 category: link
 tags: [git, authentication]
 external-link: https://github.com/jayphelps/git-blame-someone-else
+excerpt_separator: <!--more-->
 ---
+
+<!--more-->
 
 Neat hack: 
 

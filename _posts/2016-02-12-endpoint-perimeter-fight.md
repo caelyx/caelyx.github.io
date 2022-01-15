@@ -4,9 +4,10 @@ title: "Endpoint! Perimeter! Fight!"
 date: "2016-02-12 18:14:10 +1100"
 category: opinion
 tags: [strategy, vendors, marketing]
+excerpt_separator: <!--more-->
 ---
 
-[There's an interesting podcast on the A16Z feed][podcast] with Ben Horowitz interviewing Orion Hindawi, the founder of Tanium. In it, Orion spends a lot of time bashing his former company, BigFix, since acquired by IBM[^1]. He then moves on, though, to an extended criticism of perimeter security technologies, particularly FireEye and Palo Alto (which they nearly, but don't quite, name). 
+[There's an interesting podcast on the A16Z feed][podcast] with Ben Horowitz interviewing Orion Hindawi, the founder of Tanium. In it, Orion spends a lot of time bashing his former company, BigFix, since acquired by IBM<!--more-->[^1]. He then moves on, though, to an extended criticism of perimeter security technologies, particularly FireEye and Palo Alto (which they nearly, but don't quite, name). 
 
 > (12:44) They've all realised that the perimeter is not a protective mechanism. What it is useful for is reducing noise, and it's useful because you can block a lot (you're not going to block everything but you can block a lot), and it's useful for being able to get indications of what you should look for internally. There are these sandboxes and they're really good at telling you, "hey, you're getting attacked in this way"; now you need to figure out where that actually landed and that's the part most people hadn't got before Tanium got there.
 

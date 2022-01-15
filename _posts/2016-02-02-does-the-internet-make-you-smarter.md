@@ -5,7 +5,10 @@ date: "2016-02-02 07:59:10 +1100"
 category: link
 tags: [media, society]
 external-link: http://www.wsj.com/articles/SB10001424052748704025304575284973472694334
+excerpt_separator: <!--more-->
 ---
+
+<!--more-->
 
 [This essay from Clay Shirky][essay] is a few years old now, but the core insights ring true. 
 

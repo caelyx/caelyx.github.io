@@ -4,6 +4,7 @@ title:  "Issues, Risks and Capabilities: Cybersecurity Investment Models"
 date:   2016-01-30
 category: opinion
 tags: [strategy, risk, capability]
+excerpt_separator: <!--more-->
 ---
 
 A recent focus of our strategy research has been to consider how security teams are organised and how they build their strategy and roadmap. In that work, we've been asking people how they'd summarise their project investment strategy. What emerged were three primary strategies, arranged along a maturity curve: 
@@ -11,6 +12,8 @@ A recent focus of our strategy research has been to consider how security teams 
 1. Issue driven investment
 2. Risk driven investment
 3. Capability driven investment
+
+<!--more-->
 
 Most security teams initially started in **issue driven investment**. This is typified by a focus on "audit issues", whether they come from audit teams, risk teams, security teams, or system owner self-report. Typically, there is no central funding for security projects (control enhancement or system hygiene), and issues provide a clear way to argue for funding allocation. In more mature organisations in this mode, each business unit must invest first in resolving issues before investing in other projects. 
 

@@ -4,6 +4,7 @@ title:  "2021: The end of software supply chain confidence"
 date:   2022-01-06
 category: opinion
 tags: [strategy, vulnerabilities, software supply chain]
+excerpt_separator: <!--more-->
 ---
 
 Human brains love heuristics and assumptions. Thinking about everything, all at once, is exhausting (see [Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)'s System 1 vs System 2). So we use assumptions to simplify the problem space to something we can manage. 
@@ -11,6 +12,8 @@ Human brains love heuristics and assumptions. Thinking about everything, all at 
 Cyber is full of humans, and so has plenty of these assumptions too. And one of the assumptions that most have made is that the security of the software supply chain is *good enough*. Not great, but okay. Certainly, it's a lesser evil than known vulnerabilities, hence the frequent mantra to turn on automatic updates everywhere you can. 
 
 Unfortunately, 2021 was the year when that assumption really came under pressure --- the software supply chain is under active attack, from a motivated and broadening set of adversaries. So cyber people now need to adjust our approach to defending our organisations. Let's talk about those attacks, and then about some adjustments to defences.
+
+<!--more-->
 
 ## Mainstream software supply chain attacks
 

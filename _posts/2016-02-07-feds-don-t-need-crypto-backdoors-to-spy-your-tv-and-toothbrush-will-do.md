@@ -7,7 +7,7 @@ tags: [surveillance, encryption, iot]
 external-link: http://arstechnica.com/tech-policy/2016/02/feds-dont-need-crypto-backdoors-to-spy-your-tv-and-toothbrush-will-do/
 ---
 
-While various US agencies have made noise about the "Going Dark" problem[^fn1], the Berkman Center for Internet and Society has pointed out that there are many new data sources available to them under subpoena, which should more than compensate. The report is called [*Don't Panic. Making Progress on the Going Dark Debate*][pdf] (PDF). The full report is about 37 pages (and I've only skimmed it so far), but seems worthwhile.
+While various US agencies have made noise about the "Going Dark" problem, the Berkman Center for Internet and Society has pointed out that there are many new data sources available to them under subpoena, which should more than compensate. The report is called [*Don't Panic. Making Progress on the Going Dark Debate*][pdf] (PDF). The full report is about 37 pages (and I've only skimmed it so far), but seems worthwhile.
 
 The [Ars Technica summary][ars] puts it succinctly:
 
@@ -17,7 +17,6 @@ While this puts a positive angle on it[^fn2], the broader ramifications of the "
 
 (via [Akiba @ FreakLabs][akiba])
 
-[^fn1]: Read: consumers using crypto to protect their traffic from eavesdroppers, because we're not animals.
 
 [^fn2]: And one certainly supports the need for law enforcement to access information in pursuit of their duties, within an appropriate legal framework.
 
