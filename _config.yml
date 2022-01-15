@@ -17,7 +17,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://luckandskill.io" # the base hostname & protocol for your site
 twitter_username: caelyxsec
 github_username:  caelyx
-paginate: 5
+paginate: 10
 
 # Build settings
 markdown: kramdown

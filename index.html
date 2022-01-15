@@ -6,22 +6,50 @@ layout: default
 
   <h1 class="page-heading">Posts</h1>
 
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
   {% if post.external-link %}
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} &rarr;</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">&rarr; {{ post.title }}</a>
+        </h2>
   {% else %}
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  {% endif %}  
         </h2>
+        <p>{{ post.excerpt }}</p>
+  {% endif %}  
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  {% if site.paginate %}
+  <div class="pager">
+    <ul class="pagination">
+    {%- if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+    {%- else %}
+      <li><div class="pager-edge">•</div></li>
+    {%- endif %}
+      <li><div class="current-page">{{ paginator.page }}</div></li>
+    {%- if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+    {%- else %}
+      <li><div class="pager-edge">•</div></li>
+    {%- endif %}
+    </ul>
+  </div>
+  {%- endif %}
+
+
+  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS feed</a></p>
 
 </div>
