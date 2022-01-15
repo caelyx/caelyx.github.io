@@ -25,7 +25,9 @@ layout: default
   {% else %}
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <p>{{ post.excerpt }}</p>
+        <!--p>{{ post.excerpt }}<br>
+        <a href="{{ post.url | prepend: site.baseurl }}">(continue reading)</a>
+        </p-->
   {% endif %}  
       </li>
     {% endfor %}
