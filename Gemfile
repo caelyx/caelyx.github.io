@@ -7,4 +7,6 @@ group :jekyll_plugins do
   gem 'jekyll-watch'
   gem 'kramdown'
   gem 'rouge'
+  gem 'kramdown-parser-gfm'
+  gem 'webrick'
 end
