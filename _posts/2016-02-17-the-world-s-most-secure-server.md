@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "\"The world's most secure server\""
+category: opinion
+tags: [vendors, marketing]
 date: "2016-02-17 08:55:56 +1100"
 ---
 

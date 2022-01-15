@@ -2,6 +2,8 @@
 layout: post
 title: "Does the Internet Make You Smarter?"
 date: "2016-02-02 07:59:10 +1100"
+category: link
+tags: [media, society]
 external-link: http://www.wsj.com/articles/SB10001424052748704025304575284973472694334
 ---
 

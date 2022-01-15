@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Encryption, Wiretaps and Government Mandate"
+category: opinion
+tags: [encryption, surveillance]
 date: "2016-03-13 20:43:32 +1100"
 ---
 

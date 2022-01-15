@@ -2,6 +2,8 @@
 layout: post
 title: "Feds don’t need crypto backdoors to spy—your TV and toothbrush will do"
 date: "2016-02-07 00:11:39 +1100"
+category: link
+tags: [surveillance, encryption, iot]
 external-link: http://arstechnica.com/tech-policy/2016/02/feds-dont-need-crypto-backdoors-to-spy-your-tv-and-toothbrush-will-do/
 ---
 

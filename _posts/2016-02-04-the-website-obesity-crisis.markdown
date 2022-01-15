@@ -2,6 +2,8 @@
 layout: post
 title: "The Website Obesity Crisis"
 date: "2016-02-04 22:23:17 +1100"
+category: link
+tags: [web, design]
 external-link: http://idlewords.com/talks/website_obesity.htm
 ---
 

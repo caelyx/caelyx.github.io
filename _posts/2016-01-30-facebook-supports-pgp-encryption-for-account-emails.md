@@ -2,7 +2,8 @@
 layout: post
 title: "Facebook supports PGP encryption for account emails"
 date: "2016-01-30 16:04:52 +1100"
-categories: social
+category: link
+tags: [Facebook, encryption]
 external-link: http://www.theguardian.com/technology/2015/jun/01/facebook-introduces-pgp-encryption-for-sensitive-emails
 ---
 

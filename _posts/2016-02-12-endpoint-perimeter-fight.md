@@ -2,6 +2,8 @@
 layout: post
 title: "Endpoint! Perimeter! Fight!"
 date: "2016-02-12 18:14:10 +1100"
+category: opinion
+tags: [strategy, vendors, marketing]
 ---
 
 [There's an interesting podcast on the A16Z feed][podcast] with Ben Horowitz interviewing Orion Hindawi, the founder of Tanium. In it, Orion spends a lot of time bashing his former company, BigFix, since acquired by IBM[^1]. He then moves on, though, to an extended criticism of perimeter security technologies, particularly FireEye and Palo Alto (which they nearly, but don't quite, name). 

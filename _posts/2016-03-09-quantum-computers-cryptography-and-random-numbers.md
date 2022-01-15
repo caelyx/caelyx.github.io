@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Quantum computers, cryptography and random numbers"
+category: opinion
+tags: [quantum, strategy, encryption]
 date: "2016-03-09 07:48:31 +1100"
 ---
 

@@ -2,6 +2,8 @@
 layout: post
 title: "What World Are We Building?"
 date: "2016-01-27 15:51:52 +1100"
+category: link
+tags: [analytics, bias, machinelearning]
 external-link: https://points.datasociety.net/what-world-are-we-building-9978495dd9ad#.kkf3y4ieb
 ---
 

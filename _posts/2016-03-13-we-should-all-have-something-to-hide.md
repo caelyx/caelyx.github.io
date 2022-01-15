@@ -2,6 +2,8 @@
 layout: post
 title: "We Should All Have Something To Hide"
 date: "2016-03-13 21:56:42 +1100"
+category: link
+tags: [encryption, surveillance]
 external-link: http://www.thoughtcrime.org/blog/we-should-all-have-something-to-hide/
 ---
 

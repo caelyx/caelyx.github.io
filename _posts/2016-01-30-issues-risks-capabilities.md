@@ -2,7 +2,8 @@
 layout: post
 title:  "Issues, Risks and Capabilities: Cybersecurity Investment Models"
 date:   2016-01-30
-categories: security strategy
+category: opinion
+tags: [strategy, risk, capability]
 ---
 
 A recent focus of our strategy research has been to consider how security teams are organised and how they build their strategy and roadmap. In that work, we've been asking people how they'd summarise their project investment strategy. What emerged were three primary strategies, arranged along a maturity curve: 

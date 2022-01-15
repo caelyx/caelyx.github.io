@@ -3,7 +3,8 @@ layout: post
 title: "Mat Honan: How I Resurrected My Digital Life After an Epic Hacking"
 date: 2012-08-18 22:59
 comments: true
-categories: 
+category: link
+tags: [identitytheft]
 external-link: http://www.wired.com/gadgetlab/2012/08/mat-honan-data-recovery/all/
 ---
 
