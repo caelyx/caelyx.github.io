@@ -2,7 +2,8 @@
 layout: post
 title:  "2021: The end of software supply chain confidence"
 date:   2022-01-06
-tags: [security strategy, vulnerability, software]
+category: opinion
+tags: [strategy, vulnerabilities, software supply chain]
 ---
 
 Human brains love heuristics and assumptions. Thinking about everything, all at once, is exhausting (see [Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)'s System 1 vs System 2). So we use assumptions to simplify the problem space to something we can manage. 

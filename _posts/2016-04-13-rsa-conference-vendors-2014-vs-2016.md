@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "RSA Conference vendors -- 2014 vs 2016"
+category: research
+tags: [vendors]
 date: "2016-04-13 18:56:08 +1000"
 ---
 
