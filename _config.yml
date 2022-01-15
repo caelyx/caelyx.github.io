@@ -14,7 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
   proud of our skill, but we should also remember to be humble about our luck. 
   
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://luckandskill.io" # the base hostname & protocol for your site
+url: "https://luckandskill.io" # the base hostname & protocol for your site
 twitter_username: caelyxsec
 github_username:  caelyx
 paginate: 10
