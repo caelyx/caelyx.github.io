@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 Human brains love heuristics and assumptions. Thinking about everything, all at once, is exhausting (see [Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)'s System 1 vs System 2). So we use assumptions to simplify the problem space to something we can manage. 
 
-Cyber is full of humans, and so has plenty of these assumptions too. And one of the assumptions that most have made is that the security of the software supply chain is *good enough*. Not great, but okay. Certainly, it's a lesser evil than known vulnerabilities, hence the frequent mantra to turn on automatic updates everywhere you can. 
+Cyber is full of humans, and so has plenty of these assumptions too. And a common assumption is that **the security of the software supply chain is good _enough_**. Not great, but okay. Certainly, it's a lesser evil than known vulnerabilities, hence the frequent mantra to turn on automatic updates everywhere you can. 
 
 Unfortunately, 2021 was the year when that assumption really came under pressure --- the software supply chain is under active attack, from a motivated and broadening set of adversaries. So cyber people now need to adjust our approach to defending our organisations. Let's talk about those attacks, and then about some adjustments to defences.
 
@@ -35,8 +35,8 @@ So, we now had malware distributed through a trusted IT management service.
 Third, there's been an increasing set of attacks on open source components that are commonly incorporated into software. 
 
 * **Malicious commits** -- An attacker [attempted to compromise the PHP language interpreter](https://arstechnica.com/gadgets/2021/03/hackers-backdoor-php-source-code-after-breaching-internal-git-server/), by attacking the PHP core team's software repository. While it was detected and blocked, if successful this could have provided a backdoor into lots of internet-facing systems, once they were updated. 
-* **Maintainer account takeover** -- In perhaps the most direct attacks, some attackers are targeting maintainers of common packages directly. If an attacker can gain access to these accounts, they may be able to push malware through the same CI/CD and build mechanisms. A good example of this was [the attack on the `ua-parser-js` library](https://github.com/advisories/GHSA-pjwm-rvh2-c87w) in `npm`, through [an attack on the maintainer](https://github.com/faisalman/ua-parser-js/issues/536#issuecomment-949742904) by compromising his account.
-* **Dependency confusion** -- Alex Birsan [published a Medium article](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) showing that they were able to inject arbitrary code into several organisations' proprietary software. The attack relied on registering targeted, public versions of private libraries with higher version numbers. Many modern organisations use Continuous Integration/Continuous Distribution (CI/CD) pipelines to automatically build, test and deploy their applications, and these often pull down new versions of libraries as part of each build --- because the rules about what to download and incorporate were insufficiently specific, they could be tricked into downloading and using a malicious version instead of the intended one. 
+* **Maintainer account takeover** -- In perhaps the most direct attacks, some attackers are targeting maintainers of common packages directly. If an attacker can gain access to these accounts, they may be able to push malware through the same Continuous Integration/Continuous Distribution (CI/CD) and build mechanisms. A good example of this was [the attack on the `ua-parser-js` library](https://github.com/advisories/GHSA-pjwm-rvh2-c87w) in `npm`, through [an attack on the maintainer](https://github.com/faisalman/ua-parser-js/issues/536#issuecomment-949742904) by compromising his account.
+* **Dependency confusion** -- Alex Birsan [published a Medium article](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) showing that they were able to inject arbitrary code into several organisations' proprietary software. The attack relied on registering targeted, public versions of private libraries with higher version numbers. Many modern organisations use CI/CD pipelines to automatically build, test and deploy their applications, and these often pull down new versions of libraries as part of each build --- because the rules about what to download and incorporate were insufficiently specific, they could be tricked into downloading and using a malicious version instead of the intended one. 
 
 So, we now have malware being distributed through open source components -- whether that's at the source, by compromise of the legitimate library, or through dependency confusion. 
 
@@ -46,12 +46,13 @@ Finally, the `log4j` incidents at the end of 2021 were an extraordinary way to w
 So, this was a useful demonstration of how much open source there is in commercial software products, even though that's typically opaque to the customer. 
 
 
-What do we draw from all this? In 2021:
+What do we draw from all this? In 2021 we had malware distributed through:
 
-* we had malware distributed through trusted commercial software products. 
-* we had malware distributed through trusted management services. 
-* we had malware distributed through open source components. 
-* we had a sharp reminder about how much we don't know about what's embedded in commercial software.
+* trusted commercial software products. 
+* trusted management services. 
+* trusted open source components. 
+
+And we had a sharp reminder about how much we don't know about what's embedded in commercial software.
 
 So, it's no longer credible to assume that the software you're getting from others is safe or trusted. (If it ever was.)
 
@@ -60,7 +61,7 @@ So, it's no longer credible to assume that the software you're getting from othe
 
 There's a lot of talk about "assumed breach" in the cyber community. Usually, that means assuming that attackers have gained access to some accounts or installed some malware, and being constantly vigilant. 
 
-If you haven't already, it's probably time to move  a step further: to "assumed breach" in software and software components -- whether commercial or open source. 
+If you haven't already, it's probably time to move  a step further: to "assumed compromise" in software and software components -- whether commercial or open source. 
 
 As much as that's a big challenge technically, it's an even larger cultural change, particularly among your developers and IT ops people.  Developers are implicitly taught to trust software libraries, and are often under time pressure to ship features as quickly as possible. IT ops people are taught to trust commercial software and services.  Turning this around is going to require concerted effort. Particularly in re-setting the "speed vs safety" trade-off in software development.
 
